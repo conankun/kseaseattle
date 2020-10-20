@@ -11,9 +11,9 @@ function App() {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
 
-          <Link className="navbar-brand" to="/">
+          <a className="navbar-brand" to="#top">
             <img src={process.env.PUBLIC_URL + "/img/logos/ksea.png"} className="logo" /> KSEA Seattle
-          </Link>
+          </a>
             
           <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
