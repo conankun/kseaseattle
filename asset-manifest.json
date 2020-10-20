@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kseaseattle/static/css/main.008e13d7.chunk.css",
+    "main.js": "/kseaseattle/static/js/main.8f69c750.chunk.js",
+    "main.js.map": "/kseaseattle/static/js/main.8f69c750.chunk.js.map",
+    "runtime-main.js": "/kseaseattle/static/js/runtime-main.e56f5f88.js",
+    "runtime-main.js.map": "/kseaseattle/static/js/runtime-main.e56f5f88.js.map",
+    "static/js/2.d55f8210.chunk.js": "/kseaseattle/static/js/2.d55f8210.chunk.js",
+    "static/js/2.d55f8210.chunk.js.map": "/kseaseattle/static/js/2.d55f8210.chunk.js.map",
+    "index.html": "/kseaseattle/index.html",
+    "precache-manifest.fc3820f19f3010a206c23bcd2c671253.js": "/kseaseattle/precache-manifest.fc3820f19f3010a206c23bcd2c671253.js",
+    "service-worker.js": "/kseaseattle/service-worker.js",
+    "static/css/main.008e13d7.chunk.css.map": "/kseaseattle/static/css/main.008e13d7.chunk.css.map",
+    "static/js/2.d55f8210.chunk.js.LICENSE.txt": "/kseaseattle/static/js/2.d55f8210.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e56f5f88.js",
+    "static/js/2.d55f8210.chunk.js",
+    "static/css/main.008e13d7.chunk.css",
+    "static/js/main.8f69c750.chunk.js"
+  ]
+}
