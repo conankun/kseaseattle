@@ -1,0 +1,29 @@
+.contact {
+    background-color: #222;
+    background-image: url("../img/map-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.nmsc {
+    background-image: url("../img/portfolio/nmsc_math_exam.jpg");
+    background-position: center;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+section .section-heading {
+    color: #fff;
+}
+
+.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    color: #fff;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
