@@ -5,7 +5,7 @@ import officerList, {officerCategoryList, officerCategoryString} from 'util/Offi
 const OfficerList = ({startingYear}) => {
     if (!officerCategoryList.has(startingYear)) {
         return (
-            <section className="container" id="OfficerList">
+            <section className="container" id="people">
                 Error while locating officer data: Office Category List is not defined for {startingYear}-{startingYear + 1}
             </section>
         );
@@ -13,7 +13,7 @@ const OfficerList = ({startingYear}) => {
     const officerCategory = officerCategoryList.get(startingYear);
     const categoryList = officerCategory.map(category => <OfficerCategory startingYear={startingYear} category={category} />);
     return (
-        <section className="container" id="OfficerList">
+        <section className="container" id="people">
             <h2>Leadership</h2>
             {categoryList}
         </section>
@@ -49,11 +49,11 @@ OfficerCategory.propTypes = {
 
 const Officer = ({officerInfo}) => {
     return (
-        <div className="col-sm-12 col-md-6 col-lg-3" key={officerInfo.id}>
+        <div className="col-sm-12 col-md-6 col-lg-3 officer" key={officerInfo.id}>
             <img src={process.env.PUBLIC_URL + "/" + officerInfo.img} className="rounded-circle officer-image" />
             <h4>{officerInfo.name}</h4>
             <h6>{officerInfo.position}</h6>
-            <h6>{officerInfo.job}, {officerInfo.affiliation}</h6>
+            <h6>{officerInfo.job}{officerInfo.job != null && officerInfo.affiliation != null && ","} {officerInfo.affiliation}</h6>
         </div>
     )
 };

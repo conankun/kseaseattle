@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Index from 'pages/Index'
 
 import './App.css'
@@ -7,8 +6,8 @@ import './App.css'
 function App() {
   return (
     <>
-    <header className="header-static navbar-sticky navbar-light">
-      <nav className="navbar navbar-expand-lg">
+    <header className="bd-navbar">
+      <nav className="navbar fixed-top navbar-light bg-light navbar-expand-lg">
         <div className="container">
 
           <a className="navbar-brand" to="#top">
@@ -21,27 +20,29 @@ function App() {
 
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item active">
+              <li className="nav-item">
                 <a className="nav-link" href="#profile">Profile</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#profile">People</a>
+                <a className="nav-link" href="#people">People</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#profile">News</a>
+                <a className="nav-link" href="#news">News</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#profile">NMSC (전미수학과학경시대회)</a>
+                <a className="nav-link" href="#nmsc">NMSC (전미수학과학경시대회)</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#profile">Contact</a>
+                <a className="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <Index />
+    <main role="main">
+      <Index />
+    </main>
     </>
   )
 }
