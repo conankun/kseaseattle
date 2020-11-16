@@ -10,7 +10,7 @@ const officersList = new Map().set(2020,
     {
         chapterBoard: [6,7,8,9,10,11,12], 
         ygGroupBoard: [1,2,3,4,5], 
-        ygGroup: [13,14,15,16,17,18,19,20,21], 
+        ygGroup: [13,14,15,16,17,18,19,20,21,23], 
         industryMentor: [22]
     })
     .set(2019, [])
@@ -37,7 +37,8 @@ const officerName = new Map().set(1, 'Terry Kim')
                             .set(19, 'Brian Anthony Jhong')
                             .set(20, 'Yegee Lee')
                             .set(21, 'Isaiah Wankyom Kim')
-                            .set(22, 'Alan Yu');
+                            .set(22, 'Alan Yu')
+                            .set(23, 'May Kim');
 
 const officerImage = new Map().set(1, 'img/team/profile_terrykim.png')
                             .set(2, 'img/team/profile_andykim.png')
@@ -60,7 +61,8 @@ const officerImage = new Map().set(1, 'img/team/profile_terrykim.png')
                             .set(19, 'img/team/profile_brianjhong.jpg')
                             .set(20, 'img/team/profile_yegeelee.jpg')
                             .set(21, 'img/team/profile_isaiahkim.png')
-                            .set(22, 'img/team/profile_alanyu.png');
+                            .set(22, 'img/team/profile_alanyu.png')
+                            .set(23, 'img/team/profile_maykim.png');
 
 const officerPosition = new Map().set(2020, 
     {
@@ -86,6 +88,7 @@ const officerPosition = new Map().set(2020,
         20: '',
         21: '',
         22: '',
+        23: '',
     });
 
 const officerJobWithAfiliation = new Map().set(2020, 
@@ -102,8 +105,8 @@ const officerJobWithAfiliation = new Map().set(2020,
         10: {job: "Associate Professor", affiliation: "University of Washington"},
         11: {job: "Senior Software Developer Team Lead", affiliation: "Microsoft"},
         12: {job: "Executive/Senior Technical Fellow", affiliation: "Boeing"},
-        13: {job: "Undergraduate", affiliation: "University of Washington Bothell"},
-        14: {job: "Undergraduate", affiliation: "University of Washington"},
+        13: {job: "Undergraduate", affiliation: "University of Washington"},
+        14: {job: "Undergraduate", affiliation: "University of Washington Bothell"},
         15: {job: "Mechanical Engineer"},
         16: {job: "Master's student", affiliation: "University of Washington"},
         17: {job: "Post Doc", affiliation: "University of Washington"},
@@ -112,6 +115,7 @@ const officerJobWithAfiliation = new Map().set(2020,
         20: {job: "Softwareg Engineer", affiliation: "Amazon"},
         21: {job: "Undergraduate", affiliation: "University of Washington"},
         22: {job: "Program Manager", affiliation: "Microsoft"},
+        23: {job: "Undergraduate", affiliation: "University of Washington"}
     });
 
 const officerList = (year, category) => {
